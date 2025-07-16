@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React Library TypeScript Configuration",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES2021", "DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "target": "ES2021",
+    "moduleResolution": "NodeNext",
+  }
+}

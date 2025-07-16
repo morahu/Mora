@@ -1,0 +1,6 @@
+.next
+node_modules
+docker/*
+apps/**/*
+packages/*/node_modules
+packages/*/dist
