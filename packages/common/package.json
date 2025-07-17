@@ -1,0 +1,12 @@
+{
+  "name": "@mora/env",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
+}
