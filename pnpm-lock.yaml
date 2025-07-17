@@ -45,6 +45,86 @@ importers:
         specifier: 5.8.3
         version: 5.8.3
 
+  apps/api-gateway:
+    dependencies:
+      cors:
+        specifier: ^2.8.5
+        version: 2.8.5
+      dotenv:
+        specifier: ^17.2.0
+        version: 17.2.0
+      express:
+        specifier: ^5.1.0
+        version: 5.1.0
+    devDependencies:
+      '@mora/eslint-config':
+        specifier: workspace:^
+        version: link:../../packages/eslint-config
+      '@mora/tsconfig':
+        specifier: workspace:^
+        version: link:../../packages/tsconfig
+      '@types/cors':
+        specifier: ^2.8.19
+        version: 2.8.19
+      '@types/dotenv':
+        specifier: ^8.2.3
+        version: 8.2.3
+      '@types/express':
+        specifier: ^5.0.3
+        version: 5.0.3
+      esbuild:
+        specifier: ^0.25.6
+        version: 0.25.6
+      mongoose:
+        specifier: ^8.16.3
+        version: 8.16.3
+      ts-node-dev:
+        specifier: ^2.0.0
+        version: 2.0.0(@types/node@22.15.3)(typescript@5.8.3)
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
+  apps/auth-service:
+    dependencies:
+      cors:
+        specifier: ^2.8.5
+        version: 2.8.5
+      dotenv:
+        specifier: ^17.2.0
+        version: 17.2.0
+      express:
+        specifier: ^5.1.0
+        version: 5.1.0
+    devDependencies:
+      '@mora/eslint-config':
+        specifier: workspace:^
+        version: link:../../packages/eslint-config
+      '@mora/tsconfig':
+        specifier: workspace:^
+        version: link:../../packages/tsconfig
+      '@types/cors':
+        specifier: ^2.8.19
+        version: 2.8.19
+      '@types/dotenv':
+        specifier: ^8.2.3
+        version: 8.2.3
+      '@types/express':
+        specifier: ^5.0.3
+        version: 5.0.3
+      esbuild:
+        specifier: ^0.25.6
+        version: 0.25.6
+      mongoose:
+        specifier: ^8.16.3
+        version: 8.16.3
+      ts-node-dev:
+        specifier: ^2.0.0
+        version: 2.0.0(@types/node@22.15.3)(typescript@5.8.3)
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
+
   apps/web:
     dependencies:
       '@mora/ui':
@@ -82,7 +162,7 @@ importers:
         specifier: 5.8.2
         version: 5.8.2
 
-  packages/env:
+  packages/common:
     dependencies:
       dotenv:
         specifier: ^17.2.0
@@ -173,46 +253,6 @@ importers:
       '@types/uuid':
         specifier: ^10.0.0
         version: 10.0.0
-
-  services/auth:
-    dependencies:
-      cors:
-        specifier: ^2.8.5
-        version: 2.8.5
-      dotenv:
-        specifier: ^17.2.0
-        version: 17.2.0
-      express:
-        specifier: ^5.1.0
-        version: 5.1.0
-    devDependencies:
-      '@mora/eslint-config':
-        specifier: workspace:^
-        version: link:../../packages/eslint-config
-      '@mora/tsconfig':
-        specifier: workspace:^
-        version: link:../../packages/tsconfig
-      '@types/cors':
-        specifier: ^2.8.19
-        version: 2.8.19
-      '@types/dotenv':
-        specifier: ^8.2.3
-        version: 8.2.3
-      '@types/express':
-        specifier: ^5.0.3
-        version: 5.0.3
-      esbuild:
-        specifier: ^0.25.6
-        version: 0.25.6
-      mongoose:
-        specifier: ^8.16.3
-        version: 8.16.3
-      ts-node-dev:
-        specifier: ^2.0.0
-        version: 2.0.0(@types/node@22.15.3)(typescript@5.8.3)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
 
 packages:
 
