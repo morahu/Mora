@@ -11,9 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "nanoid": "^5.1.5",
+    "pino": "^9.7.0",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "@types/uuid": "^10.0.0"
+    "@types/node": "^22.15.3",
+    "@types/pino": "^7.0.5",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.8.3"
   }
 }
