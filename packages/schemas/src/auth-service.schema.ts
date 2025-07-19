@@ -1,3 +1,3 @@
-const UserTable = () => {
+const AuthTable = () => {
     
 }
