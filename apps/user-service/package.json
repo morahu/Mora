@@ -1,5 +1,5 @@
 {
-  "name": "@mora/auth-services",
+  "name": "@mora/user-services",
   "version": "0.0.0",
   "main": "index.ts",
   "scripts": {

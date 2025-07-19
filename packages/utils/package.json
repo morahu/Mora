@@ -10,14 +10,29 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chroma-js": "^3.1.2",
+    "dotenv": "^17.2.0",
+    "lodash-es": "^4.17.21",
     "nanoid": "^5.1.5",
+    "numeral": "^2.0.6",
     "pino": "^9.7.0",
-    "uuid": "^11.1.0"
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
+    "@types/chroma-js": "^3.1.1",
+    "@types/dotenv": "^8.2.3",
+    "@types/lodash-es": "^4.17.12",
     "@types/node": "^22.15.3",
+    "@types/numeral": "^2.0.5",
     "@types/pino": "^7.0.5",
+    "@types/ua-parser-js": "^0.7.39",
     "@types/uuid": "^10.0.0",
-    "typescript": "^5.8.3"
+    "@types/winston": "^2.4.4",
+    "dayjs": "^1.11.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "ua-parser-js": "^2.0.4"
   }
 }
