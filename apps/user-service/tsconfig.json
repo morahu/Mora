@@ -3,7 +3,6 @@
     "extends": "@mora/tsconfig/services.json",
     "compilerOptions": {
         "outDir": "./dist",
-        "rootDir": "./src",
         "moduleResolution": "node",
         "esModuleInterop": true,
         "skipLibCheck": true,
@@ -13,6 +12,9 @@
         "resolveJsonModule": true,
         "module": "commonjs"
     },
-    "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"],
+    "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx", 
+    "../../packages/schemas/src/**.ts",
+    "../../packages/utils/src/**.ts", "../../packages/schemas/src/user-service/user-service.schema.ts", "../../packages/schemas/src/repo-service/repo-service.schema.ts", "../../packages/schemas/src/auth-services/auth-service.schema.ts",
+    ],
     "exclude": ["node_modules", "dist", "build", "coverage"],
 }

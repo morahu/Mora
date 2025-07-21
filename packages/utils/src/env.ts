@@ -1,8 +1,9 @@
 import dotenv from 'dotenv';
+import { get } from 'http';
 
 dotenv.config(
     {
-        path: process.cwd()
+        path: '.env',
     }
 );
 
@@ -16,3 +17,5 @@ export const getEnv = (key: string, defaultValue?: string): string => {
     }
     return value;
 }
+
+console.log(getEnv("DATABASE_URL"));
